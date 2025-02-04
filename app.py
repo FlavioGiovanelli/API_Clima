@@ -2,7 +2,7 @@ import requests
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
-API_KEY = "bbc3b9d54d32739d5db40d90551c540b"
+API_KEY = "API CENSURADA"
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 @app.route("/clima", methods=["GET"])
